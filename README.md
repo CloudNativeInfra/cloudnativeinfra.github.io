@@ -2,4 +2,4 @@
 
 Powered by [hugo](https://gohugo.io), theme [kube](https://imperavi.com/kube/).
 
-https://cloudnativego.com
+Visit the website https://cloudnativego.com
