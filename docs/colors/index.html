@@ -116,14 +116,38 @@ var _hmt = _hmt || [];
 </script>
  </header>
   <main>
+  <div id="main">
+    <div id="hero">
+      <h1> Colors </h1>
+      <p class="hero-lead">
+           Kube has a basic set of colors for text, links, buttons, states and gray palette. These colors help to create uniformity and harmony in the look of UI elements. All colors are carefully selected and combined with each other. Of course, you can change the color scheme to your choice in the framework settings..
+      </p>
 
-<div id="hero" class="wrap">
-  <h1>Colors</h1>
-    <p>The basic set of colors</p>
-</div>
-<ul id="posts">
+    </div> 
+    <div id="kube-component" class="content">
+    
+<nav id="contents">
+    <ol class="js-toc">
+    </ol>
+</nav>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded",
+function(){
+tocbot.init({
 
- <p><h3 class="section-head">Text</h3>
+tocSelector: '.js-toc',
+
+contentSelector: '.content',
+
+headingSelector: 'h3'
+})
+}
+);
+</script>
+
+
+
+    <p><h3 class="section-head">Text</h3>
 <p>Contrasting black color for headings and less intense dark gray for the text helps to improve readability.</p>
 <div class="example">
   <div class="swatch-box">
@@ -255,11 +279,12 @@ var _hmt = _hmt || [];
   </div>
 </div></p>
 
-  
-</ul>
+
+    
+    </div>
+  </div>
 </main>
-  <footer> 
-    <footer id="footer">
+  <footer>   <footer id="footer">
     <nav>
       <ul>
         <li><span>Cloud Native Go!</span></li>
@@ -292,8 +317,7 @@ var _hmt = _hmt || [];
     s.parentNode.insertBefore(hm, s);
     })();
 </script>
- 
-</footer>
+ </footer>
 
 
   <script src="/js/kube.js" type="text/javascript">
