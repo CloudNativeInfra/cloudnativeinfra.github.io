@@ -6,7 +6,7 @@
     <description>Recent content in Docs on Cloud Native Go!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Apr 2017 16:43:14 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 23:26:36 +0800</lastBuildDate>
     
 	<atom:link href="https://cloudnativego.com/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,18 +22,16 @@
     </item>
     
     <item>
-      <title>Colors</title>
-      <link>https://cloudnativego.com/docs/colors/</link>
-      <pubDate>Mon, 10 Apr 2017 16:43:14 +0100</pubDate>
+      <title>Setting up a Kubernetes cluster with Vagrant</title>
+      <link>https://cloudnativego.com/docs/kubernetes-vagrant-centos-cluster/</link>
+      <pubDate>Fri, 11 May 2018 23:26:36 +0800</pubDate>
       
-      <guid>https://cloudnativego.com/docs/colors/</guid>
-      <description>Text Contrasting black color for headings and less intense dark gray for the text helps to improve readability.
- Headings $color-headings
-  Text $color-text
-   Links Classic blue links and soft red for the hover state makes links visible and predictable.
- Link $color-link
-  Hover $color-link-hover
-   Buttons Blue color for primary buttons for greater consistency with links. Black color for secondary buttons allows you build a variety of UI.</description>
+      <guid>https://cloudnativego.com/docs/kubernetes-vagrant-centos-cluster/</guid>
+      <description>See in GitHub
+Using vagrant file to build a kubernetes cluster which consists of 1 master(also as node) and 3 nodes. You don&amp;rsquo;t have to create complicated ca files or configuration.
+Why don&amp;rsquo;t we use kubeadm Because I want to setup the etcd, apiserver, controller, scheduler without docker container.
+Architecture We will create a Kubernetes 1.9.1+ cluster with 3 nodes which contains the components below:
+   IP Hostname Componets     172.</description>
     </item>
     
   </channel>
